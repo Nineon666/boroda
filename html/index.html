@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Барбершоп "Бородинский"</title>
+  <link href="../css/style.css" rel="stylesheet">
+  </link>
+</head>
+
+<body class="page_body">
+  <header class="page-header">
+    <a href="#" class="page-header_logo">
+      <img src="../img/logotype-mobile.svg" alt="Барбершоп 'Бородинский'" width="226" height="30">
+    </a>
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav_toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav_wrapper">
+        <ul class="main-nav_list site-list">
+          <li class="site-list_item site-list_item--active">
+            <a>Главная</a>
+          </li>
+          <li class="site-list_item">
+            <a href="photo.html">Наши работы</a>
+          </li>
+          <li class="site-list_item">
+            <a href="form.html">Записаться</a>
+          </li>
+          <li class="site-list_item">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="site-list_item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+        <ul class="main-nav_list user-list">
+          <li class="user-list_item">
+            <a href="login.html" class="user-list_login js-login">
+              <!-- <svg class="user-list_login-icon" width="16" height="16">
+              <use xlink:href="img/sprite.svg#icon-login"></use> -->
+              <!--</svg> -->
+              <svg class="user-list_login-icon" width="16" height="16" viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg">
+                <polygon points="0 7 7.01 7 7.01 4.06 10.96 8.01 7.01 11.91 7.01 9.06 0 9.02 0 7" />
+                <polygon points="7.01 0 7.01 2 14.03 2 14.03 13.99 7.01 13.99 7.01 13.99 7.01 16 16 16 16 0 7.01 0" />
+              </svg>
+              <span>Войти</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">Барбершоп "Бородинский" - истинно мужская классика</h1>
+    <section class="stats">
+      <div class="stats_wrapper">
+        <header class="stats_header">
+          <h2 class="visually-hidden">Статистика Барбершопа</h2>
+          <p class="stats_slogan">Стрижка у нас<br> это выгодно</p>
+          <p class="stats_intro">Мужская стрижка требует<br> точного подхода. Обратимся<br> к статистике:</p>
+          <small class="stats_legend stats_legend--top">* - приведённые данные ложь
+          </small>
+        </header>
+        <dl class="stats_list">
+          <div class="stats_item">
+            <dt class="stats_number">
+              1 500<sup>*</sup>
+            </dt>
+            <dd class="stats_description">рублей<br> вложений
+            </dd>
+          </div>
+          <div class="stats_item">
+            <dt class="stats_number">
+              7 200
+            </dt>
+            <dd class="stats_description">секунд<br> времени мастера
+            </dd>
+          </div>
+          <div class="stats_item">
+            <dt class="stats_number">
+              90 000
+            </dt>
+            <dd class="stats_description">постриженных<br> волос
+            </dd>
+          </div>
+          <div class="stats_item">
+            <dt class="stats_number">
+              500 000<sup>*</sup>
+            </dt>
+            <dd class="stats_description">лайков и<br> комплиментов
+            </dd>
+          </div>
+        </dl>
+        <small class="stats_legend stats_legend--bottom">* - приведённые данные ложь</small>
+      </div>
+    </section>
+    <section class="advantages">
+      <h2 class="visually-hidden">Наши преимущества</h2>
+      <div class="advantages_wrapper slider">
+        <ul class="advantages_list slider_list">
+          <li class="advantages_item advantages_item--fast slider_item slider_item--current">
+            <h3 class="advantages_title">Быстро</h3>
+            <p class="advantages_description">Мы делаем свою работу быстро! Два часа
+              пролетят
+              незаметно и вы - счастливый обладатель стильной стрижки-минутки.</p>
+          </li>
+          <li class="advantages_item  advantages_item--cool slider_item">
+            <h3 class="advantages_title">Круто</h3>
+            <p class="advantages_description">Забудьте, как вы стриглись раньше. Мы
+              сделаем из вас
+              звезду футбола или кино. Во всяком случае внешне.</p>
+          </li>
+          <li class="advantages_item advantages_item--price slider_item">
+            <h3 class="advantages_title">Дорого</h3>
+            <p class="advantages_description">Наши мастера — профессионалы своего
+              дела не могут
+              стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+          </li>
+        </ul>
+        <p class="advantages_toggle slider_toggles">
+          <button class="slider_toggle slider_toggle--current" type="button">1</button>
+          <button class="slider_toggle" type="button">2</button>
+          <button class="slider_toggle" type="button">3</button>
+        </p>
+        <img src="../img/angle.svg" class="angle">
+      </div>
+    </section>
+    <!-- <div class="angle_wrapper"><img src="../img/angle.svg" class="angle">
+    </div> -->
+    <section class="news">
+      <div class="news_wrapper">
+        <h2 class="news_title">Новости и акции</h2>
+        <div class="news_list">
+          <a href="#" class="news_item">
+            <time class="news_date" datetime="2017-09-29">
+              <b class="news_day">29</b>сент
+            </time>
+            <p class="news_text">Нам наконец-то завезли Егермейстер! Теперь вы можете пропустить стаканчик во время
+              стрижки.</p>
+          </a>
+          <a href="#" class="news_item">
+            <time class="news_date" datetime="2017-09-19">
+              <b class="news_day">19</b>сент
+            </time>
+            <p class="news_text">В нашей команде пополнение, Борис «Бритва» Стригунец, пополнил наши стройные ряды.
+              Спешите записаться!</p>
+          </a>
+          <a href="#" class="news_item">
+            <time class="news_date" datetime="2017-09-09">
+              <b class="news_day">9</b>сент
+            </time>
+            <p class="news_text">Всё дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чём
+              здесь подвох!</p>
+          </a>
+        </div>
+        <button class="button news_to-all" href="#">Показать все</button>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="reviews_wrapper slider">
+        <h2 class="reviews_title">Отзывы о нас</h2>
+        <a href="form.html" class="button reviews_write">Оставить свой</a>
+        <div class="reviews_list slider_list">
+          <blockquote class="reviews_item slider_item slider_item--current">
+            <img src="../img/picture-travis-mobile@1x.jpg" alt="Фото Трэвиса Баркера" class="reviews_author-image"
+              width="50" height="50">
+            <div class="reviews_author-info">
+              <cite class="reviews_author-name">Трэвис Баркер</cite>
+              <p class="reviews_text">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно
+                новую татуировку!</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews_item slider_item">
+            <img src="../img/picture-travis-mobile@1x.jpg" alt="Фото Трэвиса Баркера" class="reviews_author-image"
+              width="50" height="50">
+            <div class="reviews_author-info">
+              <cite class="reviews_author-name">Джон Смит</cite>
+              <p class="reviews_text">Отличную стрижку мне сделали ребята.</p>
+            </div>
+          </blockquote>
+          <blockquote class="reviews_item slider_item">
+            <img src="../img/picture-travis-mobile@1x.jpg" alt="Фото Трэвиса Баркера" class="reviews_author-image"
+              width="50" height="50">
+            <div class="reviews_author-info">
+              <cite class="reviews_author-name">Иван Бородайло</cite>
+              <p class="reviews_text">В Бородинском ваша борода в надёжных руках!</p>
+            </div>
+          </blockquote>
+        </div>
+        <p class="reviews_toggles slider_toggles">
+          <button class="slider_toggle slider_toggle--current" type="button">1</button>
+          <button class="slider_toggle" type="button">2</button>
+          <button class="slider_toggle" type="button">3</button>
+        </p>
+      </div>
+      <img src="../img/angle--bottom.svg" class="angle--bottom">
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer_wrapper">
+      <div class="page-footer_contacts">
+        <b class="contact_title">Барбершоп Бородинский</b>
+        <p class="contact_text">г.Санкт-Петербург, ул.Большая Конюшенная 19/8<br></p>
+        <a href="tel:+78125556666" class="contacts_phone">
+          <span class="contacts_phone-mobile">Тел.:</span> +7(812) 555-66-66
+        </a>
+      </div>
+      <div class="page-footer_social">
+        <b class="social_title">Давайте дружить!</b>
+        <ul class="social_list">
+          <li class="social_item social_link--vkontakte"><a href="#">Мы в Вконтакте</a></li>
+          <li class="social_item social_link--facebook"><a href="#">Мы в Фейсбуке</a></li>
+          <li class="social_item social_link--instagram"><a href="#">Мы в инстаграмме</a></li>
+        </ul>
+      </div>
+      <div class="page-footer_copyright">
+        <b class="copyright_text">Разработано:</b>
+        <a href="#" class="copyright_link">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+
+    //user-list
+    var navMain = document.querySelector('.main-nav');
+    var navToggle = document.querySelector('.main-nav_toggle');
+
+    navMain.classList.remove('main-nav--nojs');
+
+    navToggle.addEventListener('click', function () {
+      if (navMain.classList.contains('main-nav--closed')) {
+        navMain.classList.remove('main-nav--closed');
+        navMain.classList.add('main-nav--opened');
+      } else {
+        navMain.classList.add('main-nav--closed');
+        navMain.classList.remove('main-nav--opened');
+      }
+    });
+
+    //slider
+    var toggles = document.body.querySelectorAll('.slider_toggle');
+    var slideIndex = 0;
+    var sliderClosest
+    var sliderList
+    var currentSlide
+    var sliderItems
+    var currentToggle
+
+    for (let elem of toggles) {
+      elem.addEventListener('click', function () {
+        slideIndex = Number(elem.innerHTML);
+        sliderClosest = elem.closest('.slider');
+        sliderList = sliderClosest.querySelector('.slider_list');
+        currentSlide = sliderList.children[slideIndex - 1];
+        sliderItems = sliderList.querySelectorAll('.slider_item');
+
+        if (currentSlide.classList.contains('slider_item--current')) {
+          return
+        } else {
+          for (let sldrs of sliderItems) {
+            sldrs.classList.remove('slider_item--current');
+          }
+          togglesOff = sliderClosest.querySelectorAll('.slider_toggle');
+          for (let tgl of togglesOff) {
+            tgl.classList.remove('slider_toggle--current');
+          }
+          elem.classList.add('slider_toggle--current');
+          currentSlide.classList.add('slider_item--current');
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
